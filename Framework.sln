@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{20FC2944-DEF1-4796-A075-73E39BD5380D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework", "Framework\Framework.csproj", "{20FC2944-DEF1-4796-A075-73E39BD5380D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Core", "Framework.Core\Framework.Core.csproj", "{D43F45FC-2927-4E8C-98FC-D4FA557ACDCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Core", "Framework.Core\Framework.Core.csproj", "{D43F45FC-2927-4E8C-98FC-D4FA557ACDCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Configuration", "Framework.Configuration\Framework.Configuration.csproj", "{7B6240FD-AD3A-43C4-8269-0BFA87EF4D9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Configuration", "Framework.Configuration\Framework.Configuration.csproj", "{7B6240FD-AD3A-43C4-8269-0BFA87EF4D9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Logging", "Framework.Logging\Framework.Logging.csproj", "{A82F23F5-4884-4480-B024-0252EF991E34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Logging", "Framework.Logging\Framework.Logging.csproj", "{A82F23F5-4884-4480-B024-0252EF991E34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B061D27B-7D3E-4DFB-811E-DC19C54348C1}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
