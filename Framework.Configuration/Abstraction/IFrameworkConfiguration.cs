@@ -4,6 +4,7 @@ namespace Framework.Configuration.Abstraction
 {    
     public interface IFrameworkConfiguration
     {
+        Tenant IdentitifyTenantByUrl(string url);
         Dictionary<string,string> GetGlobalConfigurations();
         string GetGlobalConfigurationByKey(string key);
         Dictionary<string, string> GetTenantConfigurations(Tenant tenant);
